@@ -1,0 +1,24 @@
+{
+    "imoveis": [
+        {
+            "titulo": "Apartamento de exemplo 1",
+            "link": "http://example.com/1"
+        },
+        {
+            "titulo": "Apartamento de exemplo 2",
+            "link": "http://example.com/2"
+        },
+        {
+            "titulo": "Apartamento de exemplo 3",
+            "link": "http://example.com/3"
+        },
+        {
+            "titulo": "Apartamento de exemplo 4",
+            "link": "http://example.com/4"
+        },
+        {
+            "titulo": "Apartamento de exemplo 5",
+            "link": "http://example.com/5"
+        }
+    ]
+}

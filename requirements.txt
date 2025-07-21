@@ -1,0 +1,4 @@
+firecrawl-py
+pydantic
+pandas
+python-dotenv
