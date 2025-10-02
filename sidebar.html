@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assistente Gemini</title>
+  <link rel="stylesheet" type="text/css" href="sidebar.css">
+</head>
+<body>
+  <div id="gemini-sidebar">
+    <div id="header">
+      <h2>Assistente Gemini</h2>
+      <button id="close-btn">&times;</button>
+    </div>
+    <div id="chat-container">
+      <div id="chat-messages"></div>
+    </div>
+    <div id="input-container">
+      <textarea id="chat-input" placeholder="Pergunte algo..."></textarea>
+      <button id="send-btn">Enviar</button>
+    </div>
+    <div id="settings">
+      <input type="password" id="api-key-input" placeholder="Sua Chave API do Gemini">
+      <button id="save-key-btn">Salvar</button>
+    </div>
+  </div>
+  <script src="sidebar.js"></script>
+</body>
+</html>
