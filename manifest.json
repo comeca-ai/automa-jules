@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Assistente Gemini",
+  "version": "1.0",
+  "description": "Um assistente de IA na sua barra lateral, com a tecnologia Gemini.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Abrir Assistente Gemini"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "sidebar.html",
+        "sidebar.css",
+        "sidebar.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
